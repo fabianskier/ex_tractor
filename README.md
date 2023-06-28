@@ -19,3 +19,10 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/ex_tractor>.
 
+## Author
+
+Fabian Cristaldo (@fabianskier)
+
+## License
+
+ExTractor is released under the MIT License. See the LICENSE file for further details.
