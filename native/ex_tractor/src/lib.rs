@@ -1,6 +1,6 @@
 #[rustler::nif]
-fn add(a: i64, b: i64) -> i64 {
-    a + b
+fn hello(name: String) -> String {
+    format!("Hello, {}!", name)
 }
 
-rustler::init!("Elixir.ExTractor", [add]);
+rustler::init!("Elixir.ExTractor", [hello]);
