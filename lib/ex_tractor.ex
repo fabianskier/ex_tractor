@@ -1,18 +1,6 @@
 defmodule ExTractor do
-  @moduledoc """
-  Documentation for `ExTractor`.
-  """
+  use Rustler, otp_app: :ex_tractor, crate: "ex_tractor"
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ExTractor.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  @spec hello(String.t()) :: String.t()
+  def hello(name), do: :erlang.nif_error(:nif_not_loaded)
 end
